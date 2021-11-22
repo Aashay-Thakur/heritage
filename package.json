@@ -1,0 +1,17 @@
+{
+    "name": "heritage",
+    "version": "1.0.0",
+    "description": "Website for Heritage of India",
+    "main": "index.js",
+    "scripts": {
+        "test": "live-server --port=80 --host=127.0.0.1 --open=/index.html"
+    },
+    "keywords": [
+        "heritage"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "firebase": "^9.5.0"
+    }
+}
