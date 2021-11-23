@@ -4,8 +4,34 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <link rel="stylesheet" href="../styles/materialize.min.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="../styles/snackbar.css" />
         <link rel="stylesheet" href="../styles/style.css" />
     </head>
-    <body></body>
+    <body>
+        <!--NavBar-->
+        <ul class="sidenav" id="mobile-demo" style="max-width: 50%">
+            <li>
+                <a href="" class="modal-trigger" data-target="modal-account">Account</a>
+            </li>
+            <li><a href="" id="logout">Logout</a></li>
+        </ul>
+
+        <nav style="background-color: rgba(134, 15, 15, 0.5)">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#" class="modal-trigger" data-target="modal-account">Account</a>
+                    </li>
+                    <li><a href="#" id="logout">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="welcome-image"></div>
+    </body>
     <script src="../scripts/firebase-config.js" type="module"></script>
 </html>
